@@ -1,4 +1,4 @@
-package com.buildreams.pokemons.data.repository
+package com.buildreams.pokemons.domain.repository
 
 import com.buildreams.pokemons.data.datasource.PokemonRemote
 import com.buildreams.pokemons.data.model.Pokemon
