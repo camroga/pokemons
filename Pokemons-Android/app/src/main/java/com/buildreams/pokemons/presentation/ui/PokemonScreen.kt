@@ -13,7 +13,7 @@ import com.buildreams.pokemons.presentation.viewmodel.PokemonViewModel
 @Composable
 fun PokemonScreen(pokemonViewModel: PokemonViewModel = hiltViewModel()) {
     val pokemon = pokemonViewModel.pokemon.collectAsState().value
-
+    pokemonViewModel.fetchPokemon(1)
     Column(
         modifier = Modifier
             .fillMaxSize()

@@ -3,12 +3,13 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kapt)
+    alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
 }
 
 android {
     namespace = "com.buildreams.pokemons"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.buildreams.pokemons"
