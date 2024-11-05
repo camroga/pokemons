@@ -5,5 +5,6 @@ import com.squareup.moshi.Json
 data class Pokemon(
     @Json(name = "id") val id: Int,
     @Json(name = "name") val name: String,
+    @Json(name = "url") val url: String,
     @Json(name = "base_experience") val baseExperience: Int
 )
